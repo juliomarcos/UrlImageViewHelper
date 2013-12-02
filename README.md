@@ -54,7 +54,7 @@ What if you want to preload images for snazzy fast loading?
 UrlImageViewHelper.loadUrlDrawable(context, "http://example.com/image.png");
 ```
 
-Want to clear a single cache image if your user replaced them?
+Want to clear a single image cache?
 ```java
 UrlImageViewHelper.clearCache(context, "http://example.com/image.png");
 ```
